@@ -1,31 +1,33 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-areas: 
-    "button button gap button button button button";
+.material-icons {
+
 }
 
-li {
-    float: left;
+.material-icons.g-apps {
+    font-size: 2em;
+    vertical-align: middle;
 }
 
-.top-button {
-    grid-area: button;
+.profile-pic {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
 }
 
-.top-gap {
-    grid-area: gap;
+div a {
+    flex-grow: 1;
+    padding: 15px 10px;
+    border: solid;
 }
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    font-size: 17px;
-    padding: 16px 16px;
-    text-decoration: none;
+#gap {
+    flex-grow: 10;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5em;
+    margin-left: 1em;
 }
