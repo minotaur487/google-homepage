@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas: 
+    "button button gap button button button button";
+}
+
+li {
+    float: left;
+}
+
+.top-button {
+    grid-area: button;
+}
+
+.top-gap {
+    grid-area: gap;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px 16px;
+    text-decoration: none;
+}
