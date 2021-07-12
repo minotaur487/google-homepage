@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Google</title>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css" media="screen">
     </head>
@@ -24,25 +24,25 @@
             </div>
             <img id="logo" src="images/googlelogo.png">
             <label id="searchbar">
-                <span style="font-size: 25px" class="material-icons g-apps">search</span>
-                <input type="text">
+                <span style="font-size: 25px" class="material-icons search">search</span>
+                <input id="search-text-input" type="text">
             </label>
             <div id="searchbuttonbar">
                 <button class="searchbuttons" type="submit">Google Search</button>
                 <button class="searchbuttons" type="button">I'm Feeling Lucky</button>
             </div>
             <div id="footer">                   <!-- Bottom bar -->
-                <a id="carbonneutraltag">
+                <!-- <div id="footerbar"> -->
+                <a style="grid-area: left1" href="#">Advertising</a>
+                <a style="grid-area: left2" href="#">Business</a>
+                <a style="grid-area: left3" href="#">How Search works</a>
+                <a style="grid-area: carbon" id="carbonneutraltag">
                     Carbon neutral since 2007
                 </a>
-                <div id="footerbar">
-                    <a href="#">Advertising</a>
-                    <a href="#">Business</a>
-                    <a href="#">How Search works</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Terms</a>
-                    <a href="#">Settings</a>
-                </div>
+                <a style="grid-area: right1" href="#">Privacy</a>
+                <a style="grid-area: right2" href="#">Terms</a>
+                <a style="grid-area: right3" href="#">Settings</a>
+                <!-- </div> -->
             </div>
         </div>
     </body>
