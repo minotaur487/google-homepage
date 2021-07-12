@@ -106,6 +106,9 @@ a:hover {
 .searchbuttons {
     font-size: 18px;
     padding: 10px 25px;
+    outline: 0;
+    border: none;
+    background-color: #f5f5f5;
 }
 
 #footer {
